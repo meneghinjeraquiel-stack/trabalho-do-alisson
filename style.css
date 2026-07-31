@@ -1,0 +1,181 @@
+/* ==========================
+   Configurações gerais
+========================== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+    background-image:url("img/galaxy.avif");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    color:rgba(216, 194, 194, 0.87);
+    line-height:1.7;
+
+}
+/* Cabeçalho */
+
+header{
+
+    background:#0f002c;
+    text-align:center;
+    padding:20px;
+    border-bottom:5px solid rgb(0, 32, 136);
+    
+}
+
+/* Menu */
+
+nav{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:rgb(241, 241, 241);
+
+}
+
+/* Conteúdo */
+
+main{
+
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+
+}
+
+/* Seções */
+
+.secao{
+
+    margin:40px 0;
+    padding:25px;
+    border:3px solid white;
+    border-radius:15px;
+
+}
+
+.destaque{
+
+    border:5px double rgb(89, 0, 255);
+
+}
+
+/* Grid */
+
+.grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+
+}
+
+/* Cards */
+
+.card{
+
+    background:#12335a;
+    padding:20px;
+    border:3px dashed white;
+
+}
+
+/* Flex */
+
+.flex{
+
+    display:flex;
+    gap:20px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+/* Imagens */
+
+img{
+
+    max-width:100%;
+    width:500px;
+    border:4px solid rgb(232, 231, 235);
+    border-radius:12px;
+    margin-top:18px;
+    margin-right:10px; 
+}
+
+/* Rodapé */
+
+footer{
+
+    text-align:center;
+    padding:20px;
+    background:#051220;
+    border-top:5px dotted rgb(250, 250, 250);
+
+}
+
+/* Botão criado pelo JavaScript */
+
+.topo{
+
+    position:fixed;
+    bottom:20px;
+    right:20px;
+
+    background:rgb(248, 247, 248);
+    color:rgb(255, 0, 0);
+
+    border:4px solid white;
+
+    border-radius:50%;
+
+    width:60px;
+    height:60px;
+
+    cursor:pointer;
+
+    display:none;
+
+    font-size:22px;
+
+}
+
+.topo:hover{
+
+    background:white;
+
+}
+
+/* Exemplo de borda solid */
+
+h2{
+
+    border-left:8px solid rgb(119, 4, 250);
+    padding-left:10px;
+
+}
